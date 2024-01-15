@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input type="text" id="todoInput" placeholder="Add new task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="todoList"></ul>
+
+    <div class="icon-container" onclick="toggleHistory()">
+        <img src="trash-icon.png" alt="Trash Icon">
+    </div>
+
+    <div id="historyContainer" class="history-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
